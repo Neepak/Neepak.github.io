@@ -3,7 +3,7 @@ import './App.css'
 import { Route, Routes } from 'react-router'
 import { Home } from './pages/Home'
 import { About } from './pages/About'
-import { Contact } from './pages/Contact'
+import { Profile } from './pages/Profile'
 
 export default function App() {
 
@@ -12,7 +12,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about-me' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/profile' element={<Profile />} />
       </Routes>
 
       <NavigationMenu />

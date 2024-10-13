@@ -22,6 +22,8 @@
   .PDFDocument {
     display: flex;
     align-items: center;
+    flex-direction: column;
+
     .PDFPage {
       box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 

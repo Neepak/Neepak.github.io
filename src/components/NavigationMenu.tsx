@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Home, User } from 'lucide-react'
+import { Home, Network, User } from 'lucide-react'
 import { useLocation } from 'react-router'
 import { Link } from 'react-router-dom'
 
@@ -14,7 +14,7 @@ export function NavigationMenu() {
     const menuItems = [
         { icon: Home, path: '/' },
         { icon: User, path: '/about-me' },
-        // { icon: Network, path: '/contact' },
+        { icon: Network, path: '/profile' },
     ]
 
     return (
